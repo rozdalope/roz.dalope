@@ -1,24 +1,6 @@
 export default function Contact() {
 	return (
 		<main id='contact-html'>
-			{/* <!--Header Starts--> */}
-			<nav className='navheader'>
-				<div className='navheader-container contact'>
-					<a
-						href='index.html'
-						className='navheader-logo'
-					>
-						<img
-							src='./img/webdevlogo.png'
-							alt='Roz Dalope Logo'
-							width='100px'
-							className='contact-logo'
-						/>
-					</a>
-				</div>
-			</nav>
-			{/* <!--End of Header--> */}
-
 			{/* <!--Contact info--> */}
 			<div className='contact-form'>
 				<div id='contact-address'>
@@ -104,7 +86,6 @@ export default function Contact() {
 						/>
 						<br />
 						<br />
-
 						<label for='message'>Message:</label>
 						<br />
 						<textarea
@@ -115,13 +96,16 @@ export default function Contact() {
 							placeholder='Type your message here...'
 						></textarea>
 						<br />
-						<input
-							type='image'
-							name='submit'
-							src='./img/contact.png'
-							alt='Submit'
-						/>
-						<label>Send</label>
+						<div className='contact-mini-button'>
+							<input
+								type='image'
+								name='submit'
+								src='./img/contact.png'
+								alt='Submit'
+								value='Send'
+							/>
+							<span>Send</span>
+						</div>
 					</fieldset>
 				</form>
 			</div>
