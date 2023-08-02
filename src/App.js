@@ -137,7 +137,7 @@ function App() {
 							</div>
 							<div className='intro-subtitle'>
 								<h2 className='intro-title'>
-									'<coder />'
+									&#60;coder /&#62;
 								</h2>
 								<p className='intro-description'>Full stack web developer</p>
 							</div>
