@@ -137,7 +137,7 @@ function App() {
 							</div>
 							<div className='intro-subtitle'>
 								<h2 className='intro-title'>
-									<coder />
+									'<coder />'
 								</h2>
 								<p className='intro-description'>Full stack web developer</p>
 							</div>
@@ -350,7 +350,7 @@ function App() {
 										rel='noreferrer'
 										className='project-button'
 									>
-										Test Photo E-com
+										Visit Photo Marketplace
 									</a>
 									<a
 										href='https://github.com/rozdalope/PhotAwe'
@@ -384,7 +384,7 @@ function App() {
 										rel='noreferrer'
 										className='project-button'
 									>
-										Test the app
+										Visit App
 									</a>
 									<a
 										href='https://github.com/rozdalope/DriveDDrunk'
