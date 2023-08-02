@@ -1,5 +1,5 @@
 import './css/style.css';
-import Resume from './docs/rozdalopecv.pdf';
+import Resume from './docs/rozsheenadalope-resume.pdf';
 import Contact from './Contact.js';
 import { useState } from 'react';
 function App() {
